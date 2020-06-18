@@ -1,6 +1,6 @@
 def count_strings(array)
 # Return the total number of strings in the provided array using the count enumerable
-index = 0 
+index = 0
 total = 0
  while index < array.length do
   if array[index] == String
