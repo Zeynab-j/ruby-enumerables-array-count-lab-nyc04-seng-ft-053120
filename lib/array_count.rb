@@ -23,4 +23,4 @@ def count_empty_strings(array)
  total
  end
  end
- end 
+
