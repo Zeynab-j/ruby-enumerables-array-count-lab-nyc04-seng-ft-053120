@@ -7,7 +7,7 @@ total = 0
    total += 1
 end
 index += 1
-end 
+end
 total
 end
 def count_empty_strings(array)
