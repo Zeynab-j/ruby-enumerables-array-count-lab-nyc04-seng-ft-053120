@@ -1,13 +1,13 @@
 def count_strings(array)
 # Return the total number of strings in the provided array using the count enumerable
-index = 0
+index = 0 
 total = 0
  while index < array.length do
-  if array[index]kind_of?String
+  if array[index] == String
    total += 1
 end
 index += 1
-end
+end 
 total
 end
 def count_empty_strings(array)
